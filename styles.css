@@ -1,0 +1,67 @@
+body{
+	background-color: #101010;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	transition: 1000ms;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 5px auto;
+}
+
+h3 {
+	margin: 0 auto;
+}
+
+#nav {
+	background-color: #3498db;
+}
+
+#belownav{
+	background-color: white;
+	color:black;
+	font-weight: bold;
+	height : 21px;
+}
+
+#context {
+	position: absolute;
+	left: 0;
+	width: 33%;
+}
+
+#difficulty {
+	position: absolute;
+	right: 0;
+	width: 33%;
+}
+
+.container {
+	margin: 0 30%;
+}
+.square {
+	width :30%;
+	padding-bottom: 30%;
+	background-color: #101010;
+	margin: 1.66%;
+	float: left;
+	border-radius: 8px;
+}
+
+.active {
+	background-color: #3498db ;
+}
+
+#reload {
+	position: absolute;
+	right :33%;
+	width:33%;
+}
+
+.hovercolor {
+	color: #3498db;
+	
+}
